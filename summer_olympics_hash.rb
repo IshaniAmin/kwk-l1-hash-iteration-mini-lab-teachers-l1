@@ -51,6 +51,6 @@ def iterate_through_keys
 
   upcased_cities = []
 
-  summer_olympics.each_key {|key| upcased_cities << key. }
+  summer_olympics.each_key {|key| upcased_cities << key.upcase }
 
 end
