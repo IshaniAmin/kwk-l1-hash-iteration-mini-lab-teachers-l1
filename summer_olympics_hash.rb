@@ -34,7 +34,7 @@ def iterate_through_hash
   }
 
   summer_olympics.each do |key, value|
-    puts "The hash key is #{key} and the value is #{value}."
+    puts "The _____ summer olympics took place in _____."
   end
 end
 
