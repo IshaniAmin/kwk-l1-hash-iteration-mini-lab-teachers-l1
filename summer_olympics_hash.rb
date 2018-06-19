@@ -53,6 +53,8 @@ def iterate_through_keys
 
   summer_olympics.each_key {|key| upcased_cities << key.upcase }
 
-  upcased_cities
+  upcased_cities.each do |cities|
+    puts cities
+  end
 
 end
