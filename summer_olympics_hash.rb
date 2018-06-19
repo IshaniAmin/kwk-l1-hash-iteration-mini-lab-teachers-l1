@@ -48,6 +48,9 @@ def iterate_through_keys
     :London => "2012",
     :Atlanta => "1996"
   }
+
   upcased_cities = []
+
+  
 
 end
