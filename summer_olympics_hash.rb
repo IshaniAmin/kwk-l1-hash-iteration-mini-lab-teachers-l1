@@ -32,6 +32,10 @@ def iterate_through_hash
     :London => "2012",
     :Atlanta => "1996"
   }
+
+  summer_olympics.each do |key, value|
+    puts "The hash key is #{key} and the value is #{value}."
+  end
 end
 
 def iterate_through_keys
